@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
+.page {
     max-width: 1600px;
     margin: auto;
     font-family: "Work Sans", sans-serif;
@@ -13,6 +13,7 @@ body {
 
 header {
     padding-top: 50px;
+    margin-bottom: 130px;
     background-color: #FFF8F3;
     background-image: url(images/developer.png), url(images/header_bg.png);
     background-repeat: no-repeat, no-repeat;
@@ -127,4 +128,226 @@ header .logo {
     background-color: inherit;
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
+}
+
+.about-me {
+    margin: auto;
+    max-width: 1140px;
+    padding: 131px 157px;
+    background: #FFF8F3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 130px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.about-me p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    font-size: 20px;
+    color: #757575;
+    line-height: 30px;
+}
+
+.info h4 {
+    color: #181818;
+}
+
+.profession {
+    max-width: 1140px;
+    margin: auto;
+    margin-bottom: 130px;
+}
+
+.profession h2 {
+    margin-bottom: 30px;
+}
+
+.profession p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 156px;
+
+}
+
+.pro-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.card-info {
+    background-color: #FFFFFF;
+    box-shadow: 0 6px 50px rgba(0, 0, 0, 0.06);
+    max-width: 267px;
+    text-align: start;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 25px;
+    border-radius: 5px;
+}
+
+.card-info img {
+    width: 25%;
+
+}
+
+.card-info h4 {
+    font-size: 20px;
+
+}
+
+.card-info p {
+    text-align: start;
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+    padding: 0;
+}
+
+.resume {
+    max-width: 1140px;
+    margin: auto;
+    margin-bottom: 130px;
+}
+
+.resume h2 {
+    margin-bottom: 50px;
+}
+
+.resume-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 71px;
+    margin-bottom: 50px;
+
+}
+
+.edu-job h3 {
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.edu-info h4 {
+    color: #474747;
+    font-size: 25px;
+}
+
+.sub-title {
+    color: #757575;
+    font: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.edu-info {
+    margin-bottom: 10px;
+}
+
+.edu-info p {
+    color: #757575;
+    font-size: 18px;
+    line-height: 28px;
+
+}
+
+hr {
+    margin: 30px 0;
+}
+
+.cv {
+    text-align: center;
+
+}
+
+footer {
+    background-color: #FFF8F3;
+    padding: 130px 0px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 117px;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: auto;
+    align-items: flex-start;
+
+}
+
+.start {
+    text-align: start;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social p {
+    font-size: 16px;
+    color: #474747;
+    line-height: 28px;
+}
+
+.social-image {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: none;
+    background: #FFFFFF;
+    padding: 25px;
+    width: 461px;
+
+}
+
+
+input::placeholder,
+textarea {
+    color: #757575;
+    font-size: 16px;
+    resize: none;
+
+}
+input:focus,textarea:focus{
+    outline:none;
+    border:1px solid #68626259;
 }
